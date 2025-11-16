@@ -1,0 +1,463 @@
+/* Add font files for Figtree */
+@font-face {
+  font-family: "Figtree";
+  src: url("fonts/figtree.woff2") format("woff2"),
+    url("fonts/figtree.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  --font-family-figtree: "Figtree", sans-serif;
+  --text-rgb-17-17-17: rgba(17, 17, 17, 1);
+  --text-rgb-107-107-107: rgba(107, 107, 107, 1);
+}
+
+.text-rgb-17-17-17 {
+  color: var(--text-rgb-17-17-17);
+}
+
+.text-rgb-107-107-107 {
+  color: var(--text-rgb-107-107-107);
+}
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.rectangle-4-6 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 200px;
+}
+
+.rectangle-3-7 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(17, 17, 17, 1);
+  border-radius: 200px;
+}
+
+.rectangle-5-8 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(17, 17, 17, 1);
+}
+
+.rectangle-1-9 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 200px;
+}
+
+.rectangle-2-10 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(17, 17, 17, 1);
+  border-radius: 160px;
+}
+
+.vector-5-11 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  border: 3px solid rgba(255, 255, 255, 1);
+  border-radius: 32px;
+  border: none;
+  outline: none;
+}
+
+.vector-1-13 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  border: 3px solid rgba(17, 17, 17, 1);
+  border: none;
+  outline: none;
+}
+
+.vector-3-14 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  border: 3px solid rgba(17, 17, 17, 1);
+  border: none;
+  outline: none;
+}
+
+.vector-2-15 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  border: 3px solid rgba(17, 17, 17, 1);
+  border: none;
+  outline: none;
+}
+
+.group-1-12 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.group-2-5 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.vector-4-16 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  border: 3px solid rgba(17, 17, 17, 1);
+  border-radius: 32px;
+  border: none;
+  outline: none;
+}
+
+.vector-6-19 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  border: 3px solid rgba(17, 17, 17, 1);
+  border: none;
+  outline: none;
+}
+
+.vector-7-20 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  border: 3px solid rgba(17, 17, 17, 1);
+  border: none;
+  outline: none;
+}
+
+.vector-8-21 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  border: 3px solid rgba(17, 17, 17, 1);
+  border: none;
+  outline: none;
+}
+
+.vector-9-22 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  border: 3px solid rgba(17, 17, 17, 1);
+  border: none;
+  outline: none;
+}
+
+.group-5-18 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.vector-10-23 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  border: 5px solid rgba(255, 255, 255, 1);
+  border: none;
+  outline: none;
+}
+
+.vector-11-24 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  border: 5px solid rgba(255, 255, 255, 1);
+  border: none;
+  outline: none;
+}
+
+.vector-12-25 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  border: 5px solid rgba(255, 255, 255, 1);
+  border: none;
+  outline: none;
+}
+
+.group-3-17 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.rectangle-6-27 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(17, 17, 17, 1);
+}
+
+.vector-6-30 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  border: 3px solid rgba(255, 255, 255, 1);
+  border: none;
+  outline: none;
+}
+
+.vector-7-31 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  border: 3px solid rgba(255, 255, 255, 1);
+  border: none;
+  outline: none;
+}
+
+.vector-8-32 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  border: 3px solid rgba(255, 255, 255, 1);
+  border: none;
+  outline: none;
+}
+
+.vector-9-33 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  border: 3px solid rgba(255, 255, 255, 1);
+  border: none;
+  outline: none;
+}
+
+.group-5-29 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.vector-10-34 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  border: 5px solid rgba(255, 255, 255, 1);
+  border: none;
+  outline: none;
+}
+
+.vector-11-35 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  border: 5px solid rgba(255, 255, 255, 1);
+  border: none;
+  outline: none;
+}
+
+.vector-12-36 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  border: 5px solid rgba(255, 255, 255, 1);
+  border: none;
+  outline: none;
+}
+
+.group-4-28 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.mask-group-26 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.group-4-4 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.blog-image-3 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(244, 208, 78, 1);
+  border-radius: 10px;
+}
+
+.text-39 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-figtree);
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 150%;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-rgb-17-17-17);
+}
+
+.category-38 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 12px 4px 12px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(244, 208, 78, 1);
+  border-radius: 4px;
+}
+
+.text-40 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-figtree);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-rgb-17-17-17);
+}
+
+.text-41 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-figtree);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-rgb-17-17-17);
+}
+
+.text-42 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-figtree);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-rgb-107-107-107);
+}
+
+.content-37 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 0px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.userpic-44 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  width: 100%;
+  height: auto;
+  border: none;
+  outline: none;
+}
+
+.text-preset-3-bold {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-figtree);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-rgb-17-17-17);
+}
+
+.author-43 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  padding: 0px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.card-mobile-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 24px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(17, 17, 17, 1);
+  border-radius: 20px;
+}
+
+.mobile-1 {
+  @media (max-width: 1440px) {
+    .mobile-1 {
+      padding-left: 24px;
+      padding-right: 24px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .mobile-1 {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+  }
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(244, 208, 78, 1);
+}
