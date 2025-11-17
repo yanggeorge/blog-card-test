@@ -6,13 +6,29 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Figtree";
+  src: url("assets/fonts/static/Figtree-ExtraBold.ttf") format("truetype");
+  font-weight: 800; /* ExtraBold 对应 800 */
+  font-style: normal;
+  font-display: swap; /* 可选：优化加载性能 */
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("assets/fonts/static/Figtree-Medium.ttf") format("truetype");
+  font-weight: 500; /* Medium 对应 500 */
+  font-style: normal;
+  font-display: swap; /* 可选：优化加载性能 */
+}
+
 :root {
   --color-white: hsl(0, 0%, 100%);
   --color-black: hsl(0, 0%, 0%);
   --color-yellow: hsl(47, 88%, 63%);
   --color-gray-500: hsl(0, 0%, 42%);
   --color-gray-950: hsl(0, 0%, 7%);
-  --font-extra-bold: 900;
+  --font-extra-bold: 800;
   --font-bold: 700;
   --font-normal: 500;
 }
@@ -72,12 +88,18 @@ body {
 .content .category {
   border-radius: 4px;
   background-color: var(--color-yellow);
+  font-family: "Figtree";
   font-size: 12px;
-  font-weight: var(--font-bold);
+  font-weight: var(--font-extra-bold);
   line-height: 1.5;
   letter-spacing: 0;
   padding: 4px 12px;
   color: var(--color-gray-950);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
 }
 
 .content .date {
@@ -95,7 +117,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0;
   color: var(--color-gray-950);
-  width: auto;
   text-align: left;
 }
 
